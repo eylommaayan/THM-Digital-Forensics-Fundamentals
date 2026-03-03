@@ -1,4 +1,4 @@
-# THM-Digital-Forensics-Fundamentals
+<img width="587" height="428" alt="image" src="https://github.com/user-attachments/assets/76d2764b-4abb-46d3-8314-4ad52e26a366" /># THM-Digital-Forensics-Fundamentals
 עולם המרתק של ה-Digital Forensics (פורנזיקה דיגיטלית). זהו תחום שמשלב עבודת בילוש קלאסית עם טכנולוגיה מתקדמת, שבו המטרה היא "להנשים" נתונים ולגרום להם לספר מה באמת קרה.  להלן ריכוז היסודות (Fundamentals) שכל חוקר מתחיל חייב להכיר:
 
 <img width="1120" height="519" alt="image" src="https://github.com/user-attachments/assets/90f6d65d-80a5-4c2e-8190-46d3dea71229" />
@@ -217,6 +217,41 @@ exiftool ransom-letter.pdf
 ניתוח PDF (חלופי),exiftool <file.pdf>,פתרון מצוין כש-pdfinfo חסר
 חילוץ נתוני תמונה,exiftool <image.jpg>,מציג דגם מצלמה ו-GPS
 עדכון מאגרים,sudo apt update,לפתרון בעיות התקנה
+
+
+🕵️‍♂️ שלב 5: חילוץ ראיות מבוסס Metadata (הממצאים)
+לאחר הרצת הפקודות על הקבצים שחולצו מה-ZIP, אלו הנתונים שהתקבלו:
+
+א. ניתוח מסמך ה-PDF (ransom-letter.pdf)
+באמצעות הפקודה exiftool ransom-letter.pdf חילצנו את זהות החשוד:
+
+המחבר (Author): Ann Gree Shepherd.
+
+תוכנה יוצרת: Microsoft® Word 2016.
+
+נושא המסמך: "We Have Gato".
+
+ב. ניתוח התמונה המצורפת (letter-image.jpg)
+באמצעות הפקודה exiftool letter-image.jpg חילצנו את פרטי המכשיר והמיקום:
+
+דגם המצלמה (Camera Model): Canon EOS R6.
+
+נתוני מיקום (GPS Position): 51 deg 30' 51.90" N, 0 deg 5' 38.73" W.
+<img width="924" height="884" alt="image" src="https://github.com/user-attachments/assets/03dfbe89-c535-446a-a1b6-e3a735dbeb02" />
+
+<img width="753" height="306" alt="image" src="https://github.com/user-attachments/assets/9b88eb22-13f2-4f91-8631-3dbab82ead1c" />
+
+<img width="1804" height="890" alt="image" src="https://github.com/user-attachments/assets/811ecd0e-1858-4c75-a4f9-875164f1f4c0" />
+
+
+מה סוג המצלמה:
+
+<img width="587" height="428" alt="image" src="https://github.com/user-attachments/assets/9f7e7554-6b6c-4b0d-b76b-07b113f2e1e1" />
+
+
+
+
+
 
 
 
